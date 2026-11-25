@@ -1,0 +1,18 @@
+{
+  "meta": { "title": "Wathaiqi | AI Translation of Administrative Documents", "desc": "Translate CVs, cover letters and administrative documents between Arabic, French and English." },
+  "home": { "h1": "Accurate translation of administrative documents", "sub": "CV, cover letter, transcript, administrative requests" },
+  "tool": {
+    "docType": "Document type", "tone": "Tone", "from": "From", "to": "To",
+    "docTypes": { "cv": "CV / Resume", "motivation_letter": "Cover letter", "admin_request": "Administrative request", "university_doc": "University document", "contract": "Contract", "technical": "Technical document" },
+    "tones": { "formal": "Formal", "administrative": "Administrative", "academic": "Academic", "professional": "Professional" },
+    "langs": { "ar": "العربية", "fr": "Français", "en": "English" },
+    "tabs": { "translation": "Translation", "notes": "Translator notes", "tips": "Suggestions" },
+    "placeholder": "Paste your text here...", "upload": "Upload PDF / DOCX",
+    "translate": "Translate", "refine": "Translate & refine", "copy": "Copy",
+    "loading": "Translating...", "emptyResult": "The result will appear here",
+    "errShort": "The text is too short", "errSame": "Choose two different languages",
+    "errLimit": "You have used your 3 free translations today. Come back tomorrow.",
+    "errFile": "Could not read the file (PDF or DOCX, 5 MB max)", "errGeneric": "Something went wrong, please try again",
+    "disclaimer": "AI-generated translation, not a certified (sworn) translation."
+  }
+}
