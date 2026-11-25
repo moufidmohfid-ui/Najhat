@@ -1,0 +1,18 @@
+{
+  "meta": { "title": "Wathaiqi | Traduction de documents administratifs par IA", "desc": "Traduisez CV, lettres de motivation et documents administratifs entre arabe, français et anglais." },
+  "home": { "h1": "Traduction et rédaction de documents administratifs", "sub": "CV, lettre de motivation, relevé de notes, demandes administratives" },
+  "tool": {
+    "docType": "Type de document", "tone": "Ton", "from": "De", "to": "Vers",
+    "docTypes": { "cv": "CV", "motivation_letter": "Lettre de motivation", "admin_request": "Demande administrative", "university_doc": "Document universitaire", "contract": "Contrat", "technical": "Document technique" },
+    "tones": { "formal": "Formel", "administrative": "Administratif", "academic": "Académique", "professional": "Professionnel" },
+    "langs": { "ar": "العربية", "fr": "Français", "en": "English" },
+    "tabs": { "translation": "Traduction", "notes": "Notes du traducteur", "tips": "Suggestions" },
+    "placeholder": "Collez votre texte ici...", "upload": "Importer un PDF / DOCX",
+    "translate": "Traduire", "refine": "Traduire et reformuler", "copy": "Copier",
+    "loading": "Traduction en cours...", "emptyResult": "Le résultat apparaîtra ici",
+    "errShort": "Le texte est trop court", "errSame": "Choisissez deux langues différentes",
+    "errLimit": "Vous avez utilisé vos 3 traductions gratuites du jour. Revenez demain.",
+    "errFile": "Lecture impossible (PDF ou DOCX, 5 Mo maximum)", "errGeneric": "Une erreur est survenue, réessayez",
+    "disclaimer": "Traduction générée par IA, ce n'est pas une traduction assermentée."
+  }
+}
