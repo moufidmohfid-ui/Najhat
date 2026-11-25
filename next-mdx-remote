@@ -1,0 +1,14 @@
+// lib/mdx.ts
+import fs from "node:fs";
+import path from "node:path";
+import matter from "gray-matter";
+
+export function getTemplate(slug: string, locale: string) {
+  const file = path.join(process.cwd(), "content/templates", slug, `${locale}.mdx`);
+  const { data, content } = matter(fs.readFileSync(file, "utf8"));
+  return { meta: data as { title: string; description: string; docType: string }, content };
+}
+
+export function listTemplates() {
+  return fs.readdirSync(path.join(process.cwd(), "content/templates"));
+}
