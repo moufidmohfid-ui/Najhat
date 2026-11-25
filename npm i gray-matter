@@ -1,0 +1,13 @@
+// components/templates/EditWithAI.tsx
+import Link from "next/link";
+
+export default function EditWithAI({ locale, docType, body, label }:
+  { locale: string; docType: string; body: string; label: string }) {
+  const qs = new URLSearchParams({ type: docType, text: body.slice(0, 1500) });
+  return (
+    <Link href={`/${locale}?${qs}`}
+      className="inline-block rounded-lg bg-emerald-600 px-5 py-3 font-semibold text-white">
+      {label}
+    </Link>
+  );
+}
